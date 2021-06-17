@@ -1,0 +1,18 @@
+{
+  "name": "focus_app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "populate": "node ./scripts/populate.js",
+    "stats": "node ./scripts/stats.js"
+  },
+  "author": "Rabie Snoussi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "mongoose": "^5.12.14",
+    "winston": "^3.3.3"
+  }
+}
